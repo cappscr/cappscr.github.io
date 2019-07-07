@@ -1,33 +1,72 @@
+<!-- @author Christopher Capps 
+     @revised 07/07/2019
+     @version 2.0.0 
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Portfolio Site for Software Engineer Christopher Capps">
-    <meta name="author" content="Christopher Capps">
-    <link rel="icon" href="images/favicon.ico">
+    <meta
+      name="description"
+      content="Portfolio Site for Software Engineer Christopher Capps"
+    />
+    <meta name="author" content="Christopher Capps" />
+    <link rel="icon" href="images/favicon.ico" />
 
     <title>Christopher Capps</title>
 
+    <!-- Google Analytics -->
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-120787962-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <!-- End Google Analytics -->
+
     <!-- Bootstrap core CSS -->
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="styles/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="styles/ie10-viewport-bug-workaround.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="styles/jumbotron.css" rel="stylesheet">
+    <link href="styles/jumbotron.css" rel="stylesheet" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="styles/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Social Media Buttons -->
-    <link href="styles/bootstrap-social.css" rel="stylesheet">
+    <link href="styles/bootstrap-social.css" rel="stylesheet" />
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9
+      ]><script src="../../assets/js/ie8-responsive-file-warning.js"></script
+    ><![endif]-->
     <script src="scripts/ie-emulation-modes-warning.js"></script>
     <script src="scripts/repo.min.js"></script>
 
@@ -39,11 +78,17 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -52,16 +97,28 @@
           <a class="navbar-brand" href="#"><code>Christopher R. Capps</code></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-           <ul class="nav navbar-nav">
-              <li><a class="navbar-brand" href="#about">About</a></li>
-              <li><a class="navbar-brand" href="#education">Education</a><li>
-              <li><a class="navbar-brand" href="#languages">Languages & Skills</a></li>
-              <li><a class="navbar-brand" href="#experience">Experience</a></li>
-              <li><a class="navbar-brand" href="#contact">Contact</a></li>
-              <li><a class="navbar-brand" href="https://www.github.com/cappscr">Github</a></li>
-              <li><a class="navbar-brand" href="https://www.linkedin.com/in/cappscr">LinkedIn</a></li>
-           </ul>  
-        </div><!--/.navbar-collapse -->
+          <ul class="nav navbar-nav">
+            <li><a class="navbar-brand" href="#about">About</a></li>
+            <li><a class="navbar-brand" href="#education">Education</a></li>
+            <li></li>
+            <li>
+              <a class="navbar-brand" href="#languages">Languages & Skills</a>
+            </li>
+            <li><a class="navbar-brand" href="#experience">Experience</a></li>
+            <li><a class="navbar-brand" href="#contact">Contact</a></li>
+            <li>
+              <a class="navbar-brand" href="https://www.github.com/cappscr"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a class="navbar-brand" href="https://www.linkedin.com/in/cappscr"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--/.navbar-collapse -->
       </div>
     </nav>
 
@@ -72,25 +129,34 @@
     </div>
 
     <div class="container">
-       <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-            <img src="images/crc.jpg" class="img-responsive" id="headShot" alt="Professional Headshot">
-          </div>
-       </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <img
+            src="images/crc.jpg"
+            class="img-responsive"
+            id="headShot"
+            alt="Professional Headshot"
+          />
+        </div>
+      </div>
     </div>
     <br />
 
     <div class="container">
-       <div class="row">
-          <div class="col-md-12" name="about" id="about">
-             <p class="lead">I have a BS and MS in Exercise Science and I am an avid runner. However, I have always been a data enthusiast and loved computers and thus, after graduating from grad school I enrolled in Oregon State's online computer science degree program to facilitate a career change from Sports Science to IT. I would love to work with renewable energy technologies, health and fitness technologies, or artificial intelligence; however, I am open to many additional areas of computing and software.</p>
-          </div>
-       </div>
+      <div class="row">
+        <div class="col-md-12" name="about" id="about">
+          <p class="lead">
+            I have a BS and MS in Exercise Science and I am an avid runner. I am
+            currently working on a second BS in Computer Science from Oregon
+            State. I work for Bank of America working with client side
+            technologies to implement data collection on bankofamerica.com.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <!-- Feature to embed Github Repositories on the page 
+    <!-- Feature to embed Github Repositories on the page
     <div class="container">
       <div class="col-md-8">
       <h2>Check out some of my work here:</h2>
@@ -99,149 +165,328 @@
         </script>
       </div>
     </div> -->
-    
+
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4" name="education" id="education">
           <h2>Education</h2>
           <h4>Oregon State University</h4>
-             <ul>
-                <li>B.S. in Computer Science</li>
-                <li>2015 - 2018 (Expected)</li>
-                <li>GPA: 4.0</li>
-                <li>Courses: 
-                   <ul>
-                      <li>Intro to Computer Science I</li>
-                      <li>Discrete Mathematics</li>
-                      <li>Intro to Computer Science II</li>
-                      <li>Intro to Usability Engineering</li>
-                      <li>Data Structures</li>
-                      <li>Computer Architecture & Assembly Language</li>
-                      <li>Web Development</li>
-                      <li>Databases</li>
-                   </ul>
-                </li>
-             </ul>
+          <ul>
+            <li>B.S. in Computer Science</li>
+            <li>2015 - 2018</li>
+            <li>GPA: 4.0</li>
+            <li>
+              Courses:
+              <ul>
+                <li>Intro to Computer Science I</li>
+                <li>Discrete Mathematics</li>
+                <li>Intro to Computer Science II</li>
+                <li>Intro to Usability Engineering</li>
+                <li>Data Structures</li>
+                <li>Computer Architecture & Assembly Language</li>
+                <li>Web Development</li>
+                <li>Databases</li>
+                <li>Analysis of Algorithms</li>
+                <li>Operating Systems</li>
+                <li>Mobile & Cloud Development</li>
+                <li>Software Engineering</li>
+                <li>Software Engineering II</li>
+                <li>Capstone Project</li>
+              </ul>
+            </li>
+          </ul>
           <h4>Appalachian State University</h4>
-             <ul>
-                <li>M.S. in Exercise Science</li>
-                <li>2013-2015</li>
-                <li>GPA: 3.96</li>
-                <li>Awards: Chancellor's Fellow</li>
-             </ul>
+          <ul>
+            <li>M.S. in Exercise Science</li>
+            <li>2013-2015</li>
+            <li>GPA: 3.96</li>
+            <li>Awards: Chancellor's Fellow</li>
+          </ul>
           <h4>University of North Carolina at Charlotte</h4>
-             <ul>
-                <li>B.S. in Exercise Science</li>
-                <li>2009-2013</li>
-                <li>GPA: 3.97</li>
-                <li>Awards: Summa Cum Laude</li>
-             </ul>
+          <ul>
+            <li>B.S. in Exercise Science</li>
+            <li>2009-2013</li>
+            <li>GPA: 3.97</li>
+            <li>Awards: Summa Cum Laude</li>
+          </ul>
         </div>
         <div class="col-md-4" name="languages" id="languages">
           <h2>Languages</h2>
           <ul>
-             <li>C++</li>
-             <li>C</li>
-             <li>HTML & CSS</li>
-             <li>JavaScript</li>
-             <li>Node.js</li>
-             <li>SQL</li>
-             <li>PHP</li>
-             <li>Assembly</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+            <li>HTML & CSS</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>Assembly</li>
           </ul>
           <h3>Skills</h3>
           <ul>
-             <li>Object Oriented Programming</li>
-             <li>Data Structures</li>
-             <li>Algorithms</li>
-             <li>Computer Architecture</li>
-             <li>Git</li>
-             <li>MySQL</li>
+            <li>Tag Management</li>
+            <li>Tealium iQ</li>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures</li>
+            <li>Git</li>
+            <li>Agile Work Methods</li>
+            <li>Algorithms</li>
+            <li>Computer Architecture</li>
+            <li>MySQL</li>
           </ul>
           <h3>Operating Systems</h3>
           <ul>
-             <li>OS X / macOS</li>
-             <li>Windows</li>
-             <li>Linux</li>
-             <li>iOS</li>
-             <li>Android</li>
+            <li>OS X / macOS</li>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>iOS</li>
+            <li>Android</li>
           </ul>
           <h3>Software</h3>
           <ul>
-             <li>Xcode</li>
-             <li>Visual Studio</li>
-             <li>Sublime Text</li>
-             <li>Filezilla</li>
-             <li>Putty</li>
-             <li>GitHub</li>
+            <li>Bitbucket</li>
+            <li>JIRA</li>
+            <li>Confluence</li>
+            <li>Rally</li>
+            <li>Xcode</li>
+            <li>Visual Studio</li>
+            <li>Sublime Text</li>
+            <li>Filezilla</li>
+            <li>Putty</li>
+            <li>GitHub</li>
           </ul>
-       </div>
+        </div>
         <div class="col-md-4" name="experience" id="experience">
           <h2>Experience</h2>
-             <h4>Research Technician - Appalachian State University</h4>
-                <ul>
-                   <li>April 2016 - Present</li>
-                   <li>Wrote a simple command line tool in C++ to import the FNDDS database into ESHA Food Processor, which saved hundreds of hours of labor</li>
-                   <li>Led data collection in 4 studies totaling $568,126 in funding</li>
-                   <li>Author on a manuscript submitted for publication</li>
-                </ul>
-             <h4>Family Room Specialist - Apple</h4>
-                <ul>
-                   <li>September 2015 - April 2016</li>
-                   <li>Interacted with customers to perform iOS troubleshooting and basic repairs</li>
-                   <li>Educated customers as necessary on software and hardware features</li>
-                   <li>Averaged between 3 and 4 customer interactions per hour</li>
-                </ul>
-             <h4>Graduate Assistant - Appalachian State</h4>
-                <ul>
-                   <li>August 2013 - May 2015</li>
-                   <li>Taught 6 sections of undergraduate biomechanics lab - 114 students total - over 4 semesters</li>
-                   <li>Received a Cratis Gradaute School Research Grant for $500 and applied for an additional $17,000 in funding from NSCA and AMTI</li>
-                   <li>Wrote 2 manuscripts that are published in peer-reviewed journals also a contributing author on a third peer-reviewed article</li>
-                   <li>Completed data collection for 8 projects over 4 semesters</li>
-                </ul>
+          <h4>Third Party Integration Engineer - Bank of America</h4>
+          <ul>
+            <li>September 2018 - July 2019</li>
+            <li>
+              Wrote and maintained Javascript integrations for various vendor
+              tags deployed through Tealium iQ
+            </li>
+          </ul>
+          <h4>Website Implementation Engineer - Bank of America</h4>
+          <ul>
+            <li>May 2017 - September 2018</li>
+            <li>
+              Integrate third-party technologies for data collection on
+              bankofamerica.com
+            </li>
+          </ul>
+          <h4>Research Technician - Appalachian State University</h4>
+          <ul>
+            <li>April 2016 - May 2017</li>
+            <li>
+              Wrote a simple command line tool in C++ to import the FNDDS
+              database into ESHA Food Processor, which saved hundreds of hours
+              of labor
+            </li>
+            <li>
+              Led data collection in 4 studies totaling $568,126 in funding
+            </li>
+            <li>Author on a manuscript submitted for publication</li>
+          </ul>
+          <h4>Family Room Specialist - Apple</h4>
+          <ul>
+            <li>September 2015 - April 2016</li>
+            <li>
+              Interacted with customers to perform iOS troubleshooting and basic
+              repairs
+            </li>
+            <li>
+              Educated customers as necessary on software and hardware features
+            </li>
+            <li>Averaged between 3 and 4 customer interactions per hour</li>
+          </ul>
+          <h4>Graduate Assistant - Appalachian State</h4>
+          <ul>
+            <li>August 2013 - May 2015</li>
+            <li>
+              Taught 6 sections of undergraduate biomechanics lab - 114 students
+              total - over 4 semesters
+            </li>
+            <li>
+              Received a Cratis Gradaute School Research Grant for $500 and
+              applied for an additional $17,000 in funding from NSCA and AMTI
+            </li>
+            <li>
+              Wrote 2 manuscripts that are published in peer-reviewed journals
+              also a contributing author on a third peer-reviewed article
+            </li>
+            <li>Completed data collection for 8 projects over 4 semesters</li>
+          </ul>
         </div>
       </div>
 
-      <hr>
+      <hr />
+
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center">Projects</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Wedding Website</h4>
+            <ul>
+              <li><a href="http://goo.gl/sYpWuj">Visit it here</a></li>
+              <li>Used Bootstrap to create a responsive design</li>
+              <li>
+                Used Google Maps API to create embedded maps for hotel and
+                reception locations
+              </li>
+              <li>Static site hosted using an AWS S3 bucket</li>
+            </ul>
+            <br />
+            <h4>CS 161 - Intro to Computer Science I</h4>
+            <ul>
+              <h5>Library Simulator Assignment</h5>
+              <li>
+                Used custom classes programmed in C++ to simulate the
+                functioning of a library
+              </li>
+              <li>Book, Patron, and Library classes</li>
+              <li>Used pointers and the vector data structure</li>
+            </ul>
+            <br />
+            <h4>CS 162 - Intro to Computer Science II</h4>
+            <ul>
+              <h5>Conway's Game of Life</h5>
+              <li>
+                Implemented Conway’s Game of Life using a 40x20 grid to text
+                output cells in C++
+              </li>
+              <li>
+                Required to design program before coding and implement program
+                based on pre-design
+              </li>
+              <li>Required to submit testing documentation</li>
+              <br />
+              <h5>Grocery Shopping List</h5>
+              <li>Developed custom Items and List classes in C++</li>
+              <li>
+                List had the ability to add items, remove items, create a list,
+                and display the list
+              </li>
+              <li>
+                Used operator overloading on == operator to check if an item was
+                already in the list
+              </li>
+              <li>
+                Designed before implementation and tested following
+                implementation
+              </li>
+              <br />
+              <h5>Fantasy Combat Game</h5>
+              <li>Spanned 2 assignments</li>
+              <li>
+                Created custom classes for Goblins, Barbarians, Reptile People,
+                Blue Men, and The Shadow, which inherited from Creature class
+                (an abstract class).
+              </li>
+              <li>Used a linked list to run a simulation tournament</li>
+              <br />
+              <h5>Final Project – Text-based game or puzzle</h5>
+              <li>Used “spaces” that the player navigated through</li>
+              <li>
+                Each space was a class that inherited from the abstract space
+                class
+              </li>
+              <li>
+                Used a special pure virtual function to give each space a
+                special action
+              </li>
+            </ul>
+          </div>
+          <!-- close the column -->
+          <div class="col-md-6">
+            <h4>CS 290 - Intro to Web Development</h4>
+            <ul>
+              <h5>AJAX</h5>
+              <li>Used HTML forms</li>
+              <li>Interfaced with Open Weather Map via AJAX</li>
+              <li>
+                <a href="http://httpbin.org/post">http://httpbin.org/post</a>
+                via asynchronous POST request
+              </li>
+              <li>Used Advanced Rest Client to troubleshoot AJAX requests</li>
+            </ul>
+            <br />
+            <ul>
+              <h5>DOM and Events</h5>
+            </ul>
+          </div>
+          <!-- close the column -->
+        </div>
+        <!-- close the row -->
+      </div>
+      <!-- close the container -->
+
+      <hr />
 
       <div class="row" id="contact">
         <h3 class="text-center">Contact</h3>
         <br />
         <form action="mailto:capps.christopher@gmail.com">
-          <p class="text-center"><button type="submit" class="btn btn-default">Email</button></p>
+          <p class="text-center">
+            <button type="submit" class="btn btn-default">Email</button>
+          </p>
         </form>
       </div>
 
       <div class="row text-center">
         <div class="col-xs-3">
-          <a role="button" class="btn btn-social-icon btn-lg btn-twitter" href="https://twitter.com/cappscr"><span class="fa fa-twitter"></span></a>
+          <a
+            role="button"
+            class="btn btn-social-icon btn-lg btn-twitter"
+            href="https://twitter.com/cappscr"
+            ><span class="fa fa-twitter"></span
+          ></a>
         </div>
         <div class="col-xs-3">
-          <a role="button" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/chris.capps.18"><span class="fa fa-facebook"></span></a>
+          <a
+            role="button"
+            class="btn btn-social-icon btn-lg btn-facebook"
+            href="https://www.facebook.com/chris.capps.18"
+            ><span class="fa fa-facebook"></span
+          ></a>
         </div>
         <div class="col-xs-3">
-          <a role="button" class="btn btn-social-icon btn-lg btn-github" href="https://github.com/cappscr"><span class="fa fa-github"></span></a>
+          <a
+            role="button"
+            class="btn btn-social-icon btn-lg btn-github"
+            href="https://github.com/cappscr"
+            ><span class="fa fa-github"></span
+          ></a>
         </div>
         <div class="col-xs-3">
-          <a role="button" class="btn btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/in/cappscr"><span class="fa fa-linkedin"></span></a>
+          <a
+            role="button"
+            class="btn btn-social-icon btn-lg btn-linkedin"
+            href="https://www.linkedin.com/in/cappscr"
+            ><span class="fa fa-linkedin"></span
+          ></a>
         </div>
       </div>
 
-      <hr>
+      <hr />
 
       <footer>
-        <p class="text-center">&copy; 2016 Christopher Capps.</p>
+        <p class="text-center">&copy; 2019 Christopher Capps.</p>
       </footer>
-    </div> <!-- /container -->
-
+    </div>
+    <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script>')</script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="scripts/jquery.min.js"><\/script>');
+    </script>
     <script src="scripts/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="scripts/ie10-viewport-bug-workaround.js"></script>
