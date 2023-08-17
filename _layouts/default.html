@@ -9,16 +9,7 @@
     <meta name="author" content="{{ page.author }}" />
     <link rel="icon" href="images/favicon.ico" />
     <title>{{ page.title }}</title>
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3V2DWQJQR"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-G3V2DWQJQR');
-    </script>
-    <!-- End Google Analytics -->
+    {% include google_analytics.html %}
   </head>
   <body>
     {{ content }}
