@@ -1,0 +1,33 @@
+{
+    "brand": "Christopher R. Capps",
+    "links": [
+        {
+            "label": "About",
+            "href": "#about"
+        },
+        {
+            "label": "Education",
+            "href": "#education"
+        },
+        {
+            "label": "Languages & Skills",
+            "href": "#languages"
+        },
+        {
+            "label": "Experience",
+            "href": "#experience"
+        },
+        {
+            "label": "Contact",
+            "href": "#contact"
+        },
+        {
+            "label": "Github",
+            "href": "https://www.github.com/cappscr"
+        },
+        {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/cappscr"
+        }
+    ]
+}
