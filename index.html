@@ -1,6 +1,11 @@
+---
+year: 2022
+version: 3.0
+author: Christopher Capps
+---
 <!-- @author Christopher Capps 
-     @revised 07/19/2019
-     @version 2.0.0 
+     @revised 08/16/2023
+     @version 3.0.0 
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,23 +16,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta
       name="description"
-      content="Portfolio Site for Software Engineer Christopher Capps"
+      content="Portfolio Site for Software Engineer {{ page.author }}"
     />
-    <meta name="author" content="Christopher Capps" />
+    <meta name="author" content="{{ page.author }}" />
     <link rel="icon" href="images/favicon.ico" />
 
-    <title>Christopher Capps</title>
+    <title>{{ page.author }}</title>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3V2DWQJQR"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
 
-      gtag('config', 'G-G3V2DWQJQR');
-    </script>
-    <!-- End Google Analytics -->
 
     <!-- Bootstrap core CSS -->
     <link href="styles/bootstrap.min.css" rel="stylesheet" />
@@ -386,7 +382,7 @@
       <hr />
 
       <footer>
-        <p class="text-center" id="copyright-year">&copy; 2023 Christopher Capps.</p>
+        <p class="text-center" id="copyright-year">&copy; {{ page.year }} Christopher Capps.</p>
       </footer>
     </div>
     <!-- /container -->
@@ -402,6 +398,5 @@
     <script src="scripts/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="scripts/ie10-viewport-bug-workaround.js"></script>
-    <script src="scripts/updateyear.js"></script>
   </body>
 </html>
