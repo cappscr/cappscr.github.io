@@ -56,37 +56,10 @@
 
   <body>
     {% include header.html %}
-    
-    <div class="container">
-      <div class="page-header">
-        <h1>Christopher R. Capps <small>Software Engineer</small></h1>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <img
-            src="images/crc.jpg"
-            class="img-responsive"
-            id="headShot"
-            alt="Professional Headshot"
-          />
-        </div>
-      </div>
-    </div>
-    <br />
+    {% include page_header.html %}
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12" name="about" id="about">
-          <p class="lead">
-            I am a front end Javascript engineer working on integrating third-party technologies on websites. When I am not working you will likely find me running and competing in events ranging from the 5k to the marathon.
-          </p>
-        </div>
-      </div>
-    </div>
+    {% include jumbotron.html %}
 
     <!-- Feature to embed Github Repositories on the page 
     <div class="container">
