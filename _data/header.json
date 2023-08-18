@@ -2,16 +2,12 @@
     "brand": "Christopher R. Capps",
     "links": [
         {
-            "label": "About",
-            "href": "#about"
-        },
-        {
             "label": "Education",
             "href": "#education"
         },
         {
             "label": "Languages & Skills",
-            "href": "#languages"
+            "href": "/skills"
         },
         {
             "label": "Experience",
