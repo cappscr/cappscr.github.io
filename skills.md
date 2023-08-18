@@ -2,6 +2,7 @@
 layout: default
 title: Skills
 ---
+
 # Languages 
 * JavaScript
 * HTML & CSS

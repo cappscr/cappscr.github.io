@@ -1,3 +1,8 @@
+---
+layout: default
+title: Experience
+---
+
 # Experience
 
 ## Product Manager - GDC an LSEG Business
