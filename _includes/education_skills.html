@@ -1,0 +1,46 @@
+<div class="row justify-content-around">
+    <div class="col-md-6" name="{{ site.data.education.name }}" id="{{ site.data.education.id }}">
+      <h2>{{ site.data.education.label }}</h2>
+      {% for item in site.data.education.schools %}
+      <h4>{{ item.name }}</h4>
+      <ul>
+        <li>{{ item.degree }}</li>
+        <li>{{ item.years }}</li>
+        <li>GPA: {{item.gpa}}</li>
+        {% if item.award %}
+        <li>Awards: {{ item.award }}</li>
+        {% endif %}
+        {% if item.courses %}
+        <li>
+          Courses:
+          <ul>
+            {% for course in item.courses %}
+            <li>{{ course }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+      </ul>
+      {% endfor %}
+    </div>
+    <div class="col-md-6" name="{{ site.data.skills.name }}" id="{{ site.data.skills.id }}">
+      <h2>{{ site.data.skills.labelLanguages }}</h2>
+      <ul>
+        {% for item in site.data.skills.languages %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <h3>{{ site.data.skills.labelSkills }}</h3>
+      <ul>
+        {% for item in site.data.skills.skills %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <h3>{{ site.data.skills.labelSoftware }}</h3>
+      <ul>
+        {% for item in site.data.skills.software %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
