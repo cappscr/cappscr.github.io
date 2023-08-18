@@ -23,32 +23,24 @@
       </ul>
       {% endfor %}
     </div>
-    <div class="col-md-6" name="languages" id="languages">
-      <h2>Languages</h2>
+    <div class="col-md-6" name="{{ site.data.skills.name }}" id="{{ site.data.skills.id }}">
+      <h2>{{ site.data.skills.labelLanguages }}</h2>
       <ul>
-        <li>JavaScript</li>
-        <li>HTML & CSS</li>
-        <li>Node.js</li>
+        {% for item in site.data.skills.languages %}
+        <li>{{ item }}</li>
+        {% endfor %}
       </ul>
-      <h3>Skills</h3>
+      <h3>{{ site.data.skills.labelSkills }}</h3>
       <ul>
-        <li>Tag Management</li>
-        <li>Debugging</li>
-        <li>Agile Software Development/Scrum</li>
-        <li>Git</li>
+        {% for item in site.data.skills.skills %}
+        <li>{{ item }}</li>
+        {% endfor %}
       </ul>
-      <h3>Software</h3>
+      <h3>{{ site.data.skills.labelSoftware }}</h3>
       <ul>
-        <li>Jira</li>
-        <li>Bitbucket</li>
-        <li>Confluence</li>
-        <li>Adobe Analytics</li>
-        <li>Celebrus</li>
-        <li>Adobe Target</li>
-        <li>DataDog</li>
-        <li>Metabase</li>
-        <li>LogRocket</li>
-        <li>BrowserStack</li>
+        {% for item in site.data.skills.software %}
+        <li>{{ item }}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>
