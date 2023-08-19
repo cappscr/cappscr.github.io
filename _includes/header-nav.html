@@ -1,3 +1,5 @@
 {% for item in site.data.header.links %}
-<a class="btn" href="{{ item.href }}">{{ item.label }}</a>
+  {% if page.url != item.url %}
+    <a href="{{ item.href }}" class="btn">{{ item.label }}</a> 
+  {% endif %}
 {% endfor %}

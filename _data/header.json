@@ -3,15 +3,18 @@
     "links": [
         {
             "label": "Experience",
-            "href": "/experience"
+            "href": "/experience",
+            "url": "/experience.html"
         },
         {
             "label": "Education",
-            "href": "/education"
+            "href": "/education",
+            "url": "/education.html"
         },
         {
             "label": "Languages & Skills",
-            "href": "/skills"
+            "href": "/skills",
+            "url": "/skills.html"
         },
         {
             "label": "Github",
