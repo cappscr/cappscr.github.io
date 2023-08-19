@@ -1,9 +1,18 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
 title: Christopher Capps
-description: Portfolio Site for Software Engineer Christopher Capps
+tagline: Portfolio Site for Christopher Capps, Software Engineer in the Charlotte, NC area 
+description: Portfolio Site for Christopher Capps, Software Engineer in the Charlotte, NC area. Specializing in front-end web development. 
+url: christophercapps.com
+author: Christopher Capps
+social:
+  links:
+    - https://www.linkedin.com/in/cappscr
+    - https://github.com/cappscr
 lang: en-US
+locale: en-US
 show_downloads: false
 google_analytics: G-G3V2DWQJQR
 year: 2023
