@@ -2,24 +2,16 @@
     "brand": "Christopher R. Capps",
     "links": [
         {
-            "label": "About",
-            "href": "#about"
+            "label": "Experience",
+            "href": "/experience"
         },
         {
             "label": "Education",
-            "href": "#education"
+            "href": "/education"
         },
         {
             "label": "Languages & Skills",
-            "href": "#languages"
-        },
-        {
-            "label": "Experience",
-            "href": "#experience"
-        },
-        {
-            "label": "Contact",
-            "href": "#contact"
+            "href": "/skills"
         },
         {
             "label": "Github",
