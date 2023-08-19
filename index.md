@@ -1,6 +1,7 @@
 ---
 layout: home
-description: Software Engineer
+title: Christopher Capps Home Page
+description: The personal portfolio site for Christopher Capps, Software Engineer in the Charlotte, NC area
 ---
 ![Professional Headshot](assets/images/crc.jpg)
 

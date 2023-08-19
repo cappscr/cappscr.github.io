@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Skills
+description: This page lists detailed information about the skills, softwares, and programming languages Christopher Capps knows and utilizes.
 ---
 
 # Languages 

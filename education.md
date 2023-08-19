@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Education
+description: This page lists detailed information about Christopher Capps's educational history
 ---
 
 # Education

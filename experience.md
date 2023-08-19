@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Experience
+description: This page lists detailed information about Christopher Capps's work experience history.
 ---
 
 # Experience
