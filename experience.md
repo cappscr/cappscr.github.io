@@ -13,7 +13,7 @@ description: This page lists detailed information about Christopher Capps's work
 * Worked with engineering teams to prioritize work across several product and business focused workstreams
 * Worked with business partners across sales, customer relations, and finance to gather requirements for product and technology enhancements
 * Led the rollout for new customer portal user interface across multiple business units and engineering teams
-* Coached engineering teams in agile software development ceremonies including refinement and retrospectives"
+* Coached engineering teams in agile software development ceremonies including refinement and retrospectives
 
 ## Front End Engineer - Ally Bank
 
