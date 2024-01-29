@@ -27,7 +27,7 @@ description: This page lists detailed information about Christopher Capps's work
 
 ## Front End Engineer - Bank of America
 
-#### September 2018 - July 2019
+#### September 2017 - July 2019
 
 * Wrote and maintained Javascript integrations for various vendor tags deployed through Tealium iQ
 * Removed configuration values from codebase and unified production and non-production scripts to allow for simplification of code maintenance
@@ -37,7 +37,7 @@ description: This page lists detailed information about Christopher Capps's work
 
 ## Website Implementation Engineer - Signature Consultants
 
-#### May 2017 - September 2018
+#### May 2017 - September 2017
 
 * On assignment at Bank of America
 * Developed technical specfications for implementing third-party technologies for data collection on bankofamerica.com
