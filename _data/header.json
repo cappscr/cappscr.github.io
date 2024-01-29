@@ -17,6 +17,11 @@
             "url": "/skills.html"
         },
         {
+            "label": "Projects",
+            "href": "/projects",
+            "url": "/projects.html"
+        },
+        {
             "label": "Github",
             "href": "https://www.github.com/cappscr"
         },

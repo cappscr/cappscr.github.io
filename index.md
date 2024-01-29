@@ -15,4 +15,6 @@ I am currently a Product Manager working on a platform that contains several API
 
 [Education](/education)
 
+[Projects](/projects)
+
 ### Contact
