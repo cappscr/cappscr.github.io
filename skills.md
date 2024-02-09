@@ -6,8 +6,14 @@ description: This page lists detailed information about the skills, softwares, a
 
 # Languages 
 * JavaScript
-* HTML & CSS
+* HTML5 & CSS3
 * Node.js
+* GraphQL
+
+## Frameworks
+* React
+* Next.js
+* Bootstrap
 
 ## Skills
 * Tag Management
