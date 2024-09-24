@@ -6,9 +6,16 @@ description: This page lists detailed information about Christopher Capps's work
 
 # Experience
 
+## Software Engineer - FIS
+
+#### April 2024 - Present
+
+* Led technical team implementing enterprise solution for Digital Analytics
+* Built data model to cache data from core banking systems to be utilized by Digital Banking applications
+
 ## Product Manager - GDC an LSEG Business
 
-#### May 2022 - Present
+#### May 2022 - March 2024
 
 * Worked with engineering teams to prioritize work across several product and business focused workstreams
 * Worked with business partners across sales, customer relations, and finance to gather requirements for product and technology enhancements
