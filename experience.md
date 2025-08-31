@@ -10,8 +10,12 @@ description: This page lists detailed information about Christopher Capps's work
 
 #### April 2024 - Present
 
-* Led technical team implementing enterprise solution for Digital Analytics
-* Built data model to cache data from core banking systems to be utilized by Digital Banking applications
+As a Software Engineer on the Data Enablement team, I have been instrumental in building out the digital analytics capabilities for FIS's Digital Banking product portfolio, which were nearly non-existent when I started. My responsibilities and key accomplishments include:
+
+* Led the technical delivery of an enterprise-level digital analytics platform. This initiative was one of the first modern applications in the department to be deployed to AWS, where we run the platform on EKS (Elastic Kubernetes Service).
+* Leveraged modern DevOps tools to deploy and manage the platform, gaining hands-on experience with Kubernetes, Helm, and ArgoCD.
+* Crafted the strategy for instrumenting digital analytics (Celebrus) within our mobile platform, gaining hands-on experience with React Native and Expo as I produced a reference implementation.
+* Contributed to a key business initiative to shift the company toward modern, highly performant, and scalable APIs for B2B customers. My team was responsible for building the initial data model and foundational Python capabilities to be used within the ETL pipelines to operationalize data in the public cloud.
 
 ## Product Manager - GDC an LSEG Business
 

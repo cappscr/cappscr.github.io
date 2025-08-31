@@ -6,13 +6,19 @@ description: This page lists detailed information about the skills, softwares, a
 
 # Languages 
 * JavaScript
+* TypeScript
 * HTML5 & CSS3
 * Node.js
+* Python
+* HCL
 * GraphQL
 
 ## Frameworks
 * React
+* React Native
+* Kubernetes
 * Next.js
+* Expo
 * Bootstrap
 
 ## Skills
@@ -20,8 +26,11 @@ description: This page lists detailed information about the skills, softwares, a
 * Debugging
 * Agile Software Development/Scrum
 * Git
+* GitHub Actions
 
 ## Software
+* AWS
+* Terraform
 * Jira
 * Bitbucket
 * Confluence
@@ -29,6 +38,5 @@ description: This page lists detailed information about the skills, softwares, a
 * Celebrus
 * Adobe Target
 * DataDog
-* Metabase
 * LogRocket
 * BrowserStack
