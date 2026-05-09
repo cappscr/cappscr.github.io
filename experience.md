@@ -4,18 +4,28 @@ title: Experience
 description: This page lists detailed information about Christopher Capps's work experience history.
 ---
 
-# Experience
+## Experience
+
+## Software Engineer - DebtBook
+
+#### January 2026 - Present
+
+Full Stack Software Engineer on the core product team, building debt management functionality within DebtBook's Treasury Management platform. Working across a Rails API backend and React frontend in a production financial application.
+
+* Building and maintaining Rails API endpoints serving the debt management domain
+* Contributing to a React frontend with a focus on performance and user experience
+* Deepening expertise in Active Record, Active Model, and RESTful API design within a professional Rails codebase
 
 ## Software Engineer - FIS
 
-#### April 2024 - Present
+#### April 2024 - December 2025
 
-As a Software Engineer on the Data Enablement team, I have been instrumental in building out the digital analytics capabilities for FIS's Digital Banking product portfolio, which were nearly non-existent when I started. My responsibilities and key accomplishments include:
+As a Software Engineer on the Data Enablement team, I was instrumental in building out the digital analytics capabilities for FIS's Digital Banking product portfolio, which were nearly non-existent when I started. My responsibilities and key accomplishments include:
 
-* Led the technical delivery of an enterprise-level digital analytics platform. This initiative was one of the first modern applications in the department to be deployed to AWS, where we run the platform on EKS (Elastic Kubernetes Service).
-* Leveraged modern DevOps tools to deploy and manage the platform, gaining hands-on experience with Kubernetes, Helm, and ArgoCD.
-* Crafted the strategy for instrumenting digital analytics (Celebrus) within our mobile platform, gaining hands-on experience with React Native and Expo as I produced a reference implementation.
-* Contributed to a key business initiative to shift the company toward modern, highly performant, and scalable APIs for B2B customers. My team was responsible for building the initial data model and foundational Python capabilities to be used within the ETL pipelines to operationalize data in the public cloud.
+* Led the technical delivery of an enterprise-level digital analytics platform, one of the first modern applications in the department deployed to AWS, running on EKS (Elastic Kubernetes Service)
+* Leveraged modern DevOps tooling including Kubernetes, Helm, and ArgoCD to deploy and manage the platform
+* Designed the strategy for instrumenting digital analytics within our mobile platform, producing a reference implementation in React Native and Expo
+* Contributed to a key business initiative to shift the company toward modern, scalable APIs for B2B customers, building the initial data model and foundational Python capabilities for ETL pipelines in the public cloud
 
 ## Product Manager - GDC an LSEG Business
 
@@ -23,58 +33,49 @@ As a Software Engineer on the Data Enablement team, I have been instrumental in 
 
 * Worked with engineering teams to prioritize work across several product and business focused workstreams
 * Worked with business partners across sales, customer relations, and finance to gather requirements for product and technology enhancements
-* Led the rollout for new customer portal user interface across multiple business units and engineering teams
+* Led the rollout for a new customer portal user interface across multiple business units and engineering teams
 * Coached engineering teams in agile software development ceremonies including refinement and retrospectives
 
 ## Front End Engineer - Ally Bank
 
 #### July 2019 - April 2022
 
-* Built a JavaScript abstraction between Ally's web properties and various JavaScript based third-party tools including Adobe Analytics, Adobe Target, Adobe Audience Manager, Celebrus, Confirmit, and various marketing attribution softwares
-* Met with business partners from multiple business partners from multiple business units to gather and discuss requirements and then translated into technical specifications
-* Mastered technical debugging in multiple web environments including triaging and fixing critical production issues
-* Led technical governance for various third-party web technologies at an enterprise level
-* Helped organize a functional team spanning multiple business units into a high performing scrum team
+* Built a JavaScript abstraction between Ally's web properties and various third-party tools including Adobe Analytics, Adobe Target, Adobe Audience Manager, Celebrus, Confirmit, and various marketing attribution platforms
+* Gathered and translated requirements from multiple business units into technical specifications
+* Mastered technical debugging across multiple web environments, including triaging and resolving critical production issues
+* Led technical governance for enterprise-level third-party web technologies
+* Helped organize a cross-functional team spanning multiple business units into a high performing scrum team
 
 ## Front End Engineer - Bank of America
 
-#### September 2017 - July 2019
+#### May 2017 - July 2019
 
-* Wrote and maintained Javascript integrations for various vendor tags deployed through Tealium iQ
-* Removed configuration values from codebase and unified production and non-production scripts to allow for simplification of code maintenance
-* Developed strategy for organizing, publishing, and maintaining Tealium iQ implementation
-* Developed strategy for refactoring primary code library into a modular class inheritance model
-* Developed repository structure for migration of codebase from SVN to git
-
-## Website Implementation Engineer - Signature Consultants
-
-#### May 2017 - September 2017
-
-* On assignment at Bank of America
-* Developed technical specfications for implementing third-party technologies for data collection on bankofamerica.com
-* Performed front end testing to validate proper implementation of data collection and other third party technologies
+* Wrote and maintained JavaScript integrations for vendor tags deployed through Tealium iQ, including a contracting engagement through Signature Consultants prior to joining full time
+* Removed configuration values from the codebase and unified production and non-production scripts to simplify code maintenance
+* Developed strategy for organizing, publishing, and maintaining the Tealium iQ implementation
+* Developed strategy for refactoring the primary code library into a modular class inheritance model
+* Led migration of codebase from SVN to git
 
 ## Research Technician - Appalachian State University
 
 #### April 2016 - May 2017
 
-* Wrote a simple command line tool in C++ to import the FNDDS database into ESHA Food Processor, which saved hundreds of hours of labor
-* Led data collection in 4 studies totaling $568,126 in funding
+* Wrote a command line tool in C++ to import the FNDDS database into ESHA Food Processor, saving hundreds of hours of labor
+* Led data collection across 4 studies totaling $568,126 in funding
 * Author on a manuscript submitted for publication
 
 ## Family Room Specialist - Apple
 
 #### September 2015 - April 2016
 
-* Interacted with customers to perform iOS troubleshooting and basic repairs
-* Educated customers as necessary on software and hardware features
+* Performed iOS troubleshooting and repairs, educating customers on software and hardware features
 * Averaged between 3 and 4 customer interactions per hour
 
-## Graduate Assistant - Appalachian State
+## Graduate Assistant - Appalachian State University
 
 #### August 2013 - May 2015
 
-* Taught 6 sections of undergraduate biomechanics lab - 114 students total - over 4 semesters
-* Received a Cratis Gradaute School Research Grant for $500 and applied for an additional $17,000 in funding from NSCA and AMTI
-* Wrote 2 manuscripts that are published in peer-reviewed journals also a contributing author on a third peer-reviewed article
+* Taught 6 sections of undergraduate biomechanics lab across 4 semesters, totaling 114 students
+* Received a Cratis Graduate School Research Grant and applied for an additional $17,000 in funding from NSCA and AMTI
+* Published 2 peer-reviewed manuscripts and contributed to a third
 * Completed data collection for 8 projects over 4 semesters
