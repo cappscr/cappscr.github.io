@@ -3,7 +3,7 @@ layout: home
 title: Christopher Capps
 description: The personal portfolio site for Christopher Capps, Software Engineer in the Charlotte, NC area
 ---
-I'm a Full Stack Software Engineer on a Data Enablement team, building solutions for FIS's Digital Banking business. My background includes both Product Management and front-end JavaScript engineering, giving me a comprehensive view of the software development lifecycle. I believe in creating efficient, scalable, and user-focused applications. When I'm not coding, you can find me running on the road or trails.
+I'm a Full Stack Software Engineer at DebtBook, building debt management functionality within their Treasury Management platform. My background spans frontend, fullstack, and analytics engineering roles alongside a stint in Product Management, giving me a broad view of the software development lifecycle. When I'm not coding, you can find me running on the road or trails.
 
 Explore my projects below or reach out on LinkedIn to connect.
 
