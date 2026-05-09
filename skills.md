@@ -1,42 +1,52 @@
 ---
 layout: default
 title: Skills
-description: This page lists detailed information about the skills, softwares, and programming languages Christopher Capps knows and utilizes.
+description: Detailed skills, frameworks, and technologies used by Christopher Capps, Full Stack Software Engineer.
 ---
 
-# Languages 
+## Languages
 * JavaScript
 * TypeScript
 * HTML5 & CSS3
-* Node.js
-* Python
-* HCL
-* GraphQL
+* Ruby
 
-## Frameworks
+## Frameworks & Libraries
+* Rails
 * React
-* React Native
-* Kubernetes
-* Next.js
-* Expo
-* Bootstrap
+* Active Record
+* SWR
+* MUI
 
-## Skills
-* Tag Management
-* Debugging
-* Agile Software Development/Scrum
+## Tooling
 * Git
 * GitHub Actions
+* Vite
+* Yarn
+* Terraform
+
+## Infrastructure & Platforms
+* AWS
+* Netlify
+* Railway
+* PostgreSQL
+* SQLite
+* Datadog
+* LogRocket
+
+## Skills
+* REST APIs
+* Debugging
+* Agile Software Development / Scrum
 
 ## Software
-* AWS
-* Terraform
+* Gitlab
 * Jira
-* Bitbucket
 * Confluence
-* Adobe Analytics
-* Celebrus
-* Adobe Target
-* DataDog
-* LogRocket
 * BrowserStack
+
+## Previous Experience
+* React Native & Expo
+* Python
+* HCL
+* Celebrus
+* Adobe Analytics & Target
